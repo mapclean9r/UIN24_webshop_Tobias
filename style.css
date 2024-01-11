@@ -20,11 +20,12 @@
 
 
 body {
-    background-image: url(website_images/mainbackground.png);
+    background-image: url("website_images/mainbackground.png");
     background-color: var(--yellow);
     font-family: var(--font);
     font-size: var(--rootsize);
-
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /*Fixed text sizes*/
