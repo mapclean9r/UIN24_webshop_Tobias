@@ -46,7 +46,7 @@ h3{
 
 /* Main Structure */
 
-#contrainer{
+#container{
     width: 100%;
     max-width: var(--maxsize);
     margin: 0 auto;
