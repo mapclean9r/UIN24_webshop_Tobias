@@ -11,7 +11,7 @@
     --black: #000000;
     --white: #FFFFFF;
 
-    --font: "Rubik, sans-serif";
+    --font: 'Rubik', sans-serif;
     --rootsize: 20px;
     --maxsize: 1200px;
 
@@ -53,3 +53,46 @@ h3{
     min-height: 200px;
     background-color: var(--white);
 }
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+#logo {
+    max-width: 15rem;
+}
+
+#carticon{
+    max-width: 3rem;
+}
+
+nav {
+    background-color: var(--red);
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+
