@@ -10,8 +10,33 @@
 
     <div id="container">
         <header>
-            <img id="logo" src="website_images/LD_logo_square.svg" alt="LEGOdudes webshop">
-            <img id="carticon" src="website_images/legocart.svg" alt="Your cart">
+            <img id="logo" src="website_images/LD_logo.svg" alt="LEGOdudes webshop">
+            
+            <button id="carttoggle">
+                <span id="cartcount">99</span>
+                <img id="carticon" src="website_images/legocart.svg" alt="Your cart">
+            </button>
+        <section id="cart">
+            <h2>Din handlevogn</h2>
+            <ul id="cartlist">
+                <li>
+                    <span class="title">Produkttittel</span>
+                    <span class="price">Kr. 89,-</span>
+                    <span class="quantity">x1</span>
+                    <span class="functions">
+                        <button>X</button>
+                    </span>
+                </li>
+                <li>
+                    <span class="title">Wengestone warriors</span>
+                    <span class="price">8929,-</span>
+                    <span class="quantity">333</span>
+                    <span class="functions">
+                        <button>X</button>
+                    </span>
+                </li>
+            </ul>
+        </section>
         </header>
         <nav>
             <ul>
@@ -22,8 +47,13 @@
                 <li><a href="#">Movie Characters</a></li>
             </ul>
         </nav>
-    </div>
+        <main>
+            
 
+            
+        </main>
+    </div>
+    <script src="legodudes.js"></script>
     <script src="shopscript.js"></script>
 </body>
 </html>
